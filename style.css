@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Bree Serif', serif;
+	font-size: 15px;
+	background-color: #F5F4F2;
+}
+
+/* ----------------NAVBAR--------------- */
+.nav-item{
+	padding: 0 32px;
+}
+/* ----------------BODY--------------- */
+#videoinicio{
+	margin-left: 200px;
+	margin-top: 25px;
+}
+#textoInicio{
+	text-indent: 25px;
+	margin-top: 25px;
+}
+.MusashiVideo{
+	width: 576px;
+	height: 310px;
+}
+.h3Instituto{
+	text-align: center;
+}
+
+/* ----------------TEXTOS--------------- */
+a:link, a:visited{
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover, a:active{
+	color: #F2BE22;
+}
+
+/* ----------------OUTROS--------------- */
+
+th{
+	padding-left: 100px;
+	padding-right: 350px;
+}
+
+/* ----------------FOOTER--------------- */
+footer{
+	text-align: center;
+}
+.LogoFooter{
+	height: 150px;
+}
