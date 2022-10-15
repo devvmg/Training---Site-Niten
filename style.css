@@ -8,6 +8,47 @@ body{
 	background-color: #F5F4F2;
 }
 
+.barra
+{
+	opacity: 0.5;
+	width: 90px;
+	height: 100%;
+	position: fixed; 
+	background-color: #202225;
+	text-align: center;
+	align-items: center; 
+	height: 100px;
+	border-radius: 0 7px 7px 0;
+}
+.barra:hover
+{
+	transition: 0.5s;
+	opacity: 1;
+} 
+.iconsNav
+{
+	padding-top: 50px;
+}
+.barra-nav 
+{
+	align-items: center; 
+	list-style: none;
+	padding: 0; 
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+.barra-nav p
+{
+	color: #FFF;
+}
+.barra-nav i
+{
+	margin-top: 20px;
+	
+}
+
+
 /* ----------------NAVBAR--------------- */
 .nav-item{
 	padding: 0 32px;
@@ -20,6 +61,11 @@ body{
 #textoInicio{
 	text-indent: 25px;
 	margin-top: 25px;
+}
+.symNiten{
+	height: 70px; 
+	display: block;
+	margin: 0 auto;
 }
 .MusashiVideo{
 	width: 576px;
